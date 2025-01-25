@@ -30,9 +30,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${chakraPetch.variable} ${quicksand.variable} font-sans`}>
+      <body className={`${chakraPetch.variable} ${quicksand.variable} font-sans min-h-screen flex flex-col`}>
         <Navbar />
-        <main className="flex-grow">
+        <main className="flex-grow px-4 md:px-0">
           {children}
         </main>
         <Footer />
