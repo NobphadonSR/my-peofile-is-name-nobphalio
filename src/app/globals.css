@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
+  --font-quicksand: '';
+  --font-chakra-petch: '';
+}
+/* rgb(var(--background-rgb)) */
+@layer base {
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: url('https://firebasestorage.googleapis.com/v0/b/imagesss-7501d.appspot.com/o/1308898.jpg?alt=media&token=702b0d44-047d-41b3-a60a-bcfa2772acfc');
+    @apply font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
