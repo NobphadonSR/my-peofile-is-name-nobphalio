@@ -19,7 +19,7 @@ const quicksand = Quicksand({
 })
 
 export const metadata: Metadata = {
-  title: 'My Portfolio Blog',
+  title: 'Nobphanolio',
   description: 'My personal portfolio and blog',
 }
 

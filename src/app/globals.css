@@ -19,3 +19,12 @@
     @apply font-heading;
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 0 1rem; /* ลด Padding */
+  }
+  h1 {
+    font-size: 1.5rem; /* ขนาดเล็กลงสำหรับมือถือ */
+  }
+}

@@ -5,10 +5,10 @@ export default function About() {
           <h1 className="text-primary text-4xl font-bold mb-6">About Me</h1>
           <div className="bg-black/50 p-6 rounded-lg border border-primary/20">
             <p className="text-primary/80 mb-4">
-              Hello! I&apos;m Nobphadon Srimanta, a passionate developer who loves creating beautiful and functional web applications.
+              สวัสดีครับ! ผมชื่อ “นพดล ศรีมันตะ” หรือ “ปั้น” เองนะครับ ผมเป็นนักพัฒนาซอฟต์แวร์ที่ชอบเขียนโปรแกรมและออกแบบเว็บไซต์ครับ ผมประสบการณ์ที่พึ่งเริ่มฝึกงานได้ 4 เดือน แต่ผมมีความสามารถในการเรียนรู้และพัฒนาตนเองอย่างรวดเร็วครับ และอีกอย่างนั้นผมเป็นเกมเมอร์ด้วย
             </p>
             <p className="text-primary/80 mb-4">
-              My expertise includes:
+              ทักษะสกิลของผม:
             </p>
             <ul className="list-disc list-inside text-primary/80">
               <li>Full Stack Development</li>
