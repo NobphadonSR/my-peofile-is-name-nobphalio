@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black/50 p-4 sticky top-0 z-50 transition-all duration-300">
+    <nav className="bg-black/75 sticky p-4 top-0 z-50 transition-all duration-300 rounded-xl m-6">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link
@@ -74,10 +74,10 @@ const Navbar = () => {
         <div
           className={`${
             isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
-          } fixed top-0 right-0 h-full w-64 bg-black/90 transform transition-all duration-300 ease-in-out md:hidden`}
+          } fixed top-0 right-0 h-full w-48 bg-black/75 backdrop-blur-sm transform transition-all duration-300 ease-in-out md:hidden rounded-xl`}
         >
           <button
-            className="absolute top-4 right-4 text-white"
+            className="absolute top-4 right-4 text-primary"
             onClick={() => setIsOpen(false)}
             aria-label="Close menu"
           >
